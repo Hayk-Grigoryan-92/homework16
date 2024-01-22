@@ -1,0 +1,50 @@
+body{
+    background: url('https://images.unsplash.com/photo-1554841948-d64df397dfae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=659&q=80');
+      background-size: cover;
+    }
+    
+    .App{
+     width: 100%;
+     height: 100vh;
+    }
+    
+  .calculator{
+    background-color: rgba(36, 37, 42, 0.6);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 350px;
+    width: 300px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    label{
+      margin-bottom: 10px;
+      height: 40px;
+      width: 100%;
+      input{
+        height: 20px;
+      }
+    }
+
+    button{
+      width: 50%;
+      height: 30px;
+      border-radius: 5px;
+    }
+
+    select{
+      width: 40px;
+      height: 30px;
+      font-size: 22px;
+
+      
+    }
+  }
+    
+  
